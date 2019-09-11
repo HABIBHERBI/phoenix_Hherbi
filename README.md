@@ -10,9 +10,17 @@
 ## Utilisation
 
 Avec JAR:
+
+use :
 ```
-java -jar votrejar.jar -i chemin/dossier/donnees/entrantes -o chemin/dossier/donnees/produite
+
+sbt assembly 
+
+java -jar given_name.jar -i chemin/dossier/donnees/entrantes -o chemin/dossier/donnees/produite
 ```
+
+already built jar: Phoenix_Habib_H-master\target\scala-2.12\phenix-challenge_Habib-assembly-0.1.0-SNAPSHOT.jar
+
 
 
 Le dossier en entrée par defaut est le dossier data de l'énoncé,
